@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T18:09:11+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 32,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：8 条，最值得看的是《LongCapHarness: Capability-Guided Auto-Harnessing for Long-Context Reasoning》。",
+    "芯片与算力：8 条，最值得看的是《Rethinking Memory For AI Inference》。",
+    "具身智能与机器人：8 条，最值得看的是《Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation》。",
+    "AI for Science：8 条，最值得看的是《Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "LongCapHarness: Capability-Guided Auto-Harnessing for Long-Context Reasoning",
+          "url": "https://arxiv.org/html/2611.10463v1",
+          "domain": "arxiv.org",
+          "published": "Sat, 07 Nov 2026 10:00:00 GMT",
+          "point": "Existing methods enhancing an LLM’s long-context reasoning capability often rely on data synthesis and follow-up LLM pos…",
+          "why": ""
+        },
+        {
+          "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+          "url": "https://arxiv.org/html/2611.12791v1",
+          "domain": "arxiv.org",
+          "published": "Mon, 09 Nov 2026 18:00:00 GMT",
+          "point": "### II-C Explainability and Chain-of-Thought Reasoning. Traditional AutoML algorithms and neural search agents are frequ…",
+          "why": ""
+        },
+        {
+          "title": "Daily Papers - Hugging Face",
+          "url": "https://huggingface.co/papers?q=clinical+ability",
+          "domain": "huggingface.co",
+          "published": "Sat, 07 Nov 2026 08:00:00 GMT",
+          "point": "Using the past information, an oracle LLM generates a case-specific query-answer pair, and the first adaptive rubric for…",
+          "why": ""
+        },
+        {
+          "title": "From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models",
+          "url": "https://arxiv.org/html/2611.14149v1",
+          "domain": "arxiv.org",
+          "published": "Wed, 11 Nov 2026 10:00:00 GMT",
+          "point": "Belief revision. When retrieved claims conflict with parametric knowledge, the model must reconcile competing informatio…",
+          "why": ""
+        },
+        {
+          "title": "Primitives and Paths: Predicting What Post-Training Can Do from What the Base Model Already Has",
+          "url": "https://arxiv.org/html/2611.11260",
+          "domain": "arxiv.org",
+          "published": "Sun, 08 Nov 2026 06:00:00 GMT",
+          "point": "## 2 Background ### 2.1 RL as capability amplification One prominent view of reasoning post-training is that RL primaril…",
+          "why": ""
+        },
+        {
+          "title": "Learning Evidence-Grounded Reasoning for Context-Aware Time Series Forecasting",
+          "url": "https://arxiv.org/html/2611.12285",
+          "domain": "arxiv.org",
+          "published": "Tue, 10 Nov 2026 10:00:00 GMT",
+          "point": "Our main contributions are summarized as follows: We argue that effective context-aware forecasting requires interpretin…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Rethinking Memory For AI Inference",
+          "url": "https://semiengineering.com/rethinking-memory-for-ai-inference",
+          "domain": "semiengineering.com",
+          "published": "Thu, 12 Nov 2026 08:11:46 GMT",
+          "point": "“The memory shortage is partially due to current state-of-the-art design and use of available memory,” said Satish Radha…",
+          "why": ""
+        },
+        {
+          "title": "Chip Industry Week In Review",
+          "url": "https://semiengineering.com/chip-industry-week-in-review-164",
+          "domain": "semiengineering.com",
+          "published": "Fri, 13 Nov 2026 08:01:34 GMT",
+          "point": "#### Chips and systems AMD introduced its 6th-gen EPYC server and embedded processors, including models for semiconducto…",
+          "why": ""
+        },
+        {
+          "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+          "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall",
+          "domain": "semiengineering.com",
+          "published": "Thu, 12 Nov 2026 08:08:39 GMT",
+          "point": "## Adding memory is not enough High-bandwidth memory can supply data quickly near accelerators. Larger-capacity tiers ca…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA Corporation - NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Rebellions-and-SK-Telecom-Announce-Collaboration-to-Advance-Sovereign-AI-Infrastructure-With-NVIDIA-NVLink-Fusion/default.aspx",
+          "domain": "investor.nvidia.com",
+          "published": "Mon, 09 Nov 2026 00:00:00 GMT",
+          "point": "The MGX rack architecture provides a foundation for GPU and NPU systems to share data center design elements, including…",
+          "why": ""
+        },
+        {
+          "title": "The Semiconductor Singularity",
+          "url": "https://semiengineering.com/the-semiconductor-singularity",
+          "domain": "semiengineering.com",
+          "published": "Thu, 12 Nov 2026 15:57:50 GMT",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        },
+        {
+          "title": "Signature IP Semiconductor Engineering",
+          "url": "https://semiengineering.com/tag/signature-ip",
+          "domain": "semiengineering.com",
+          "published": "Thu, 12 Nov 2026 12:00:00 GMT",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+          "url": "https://arxiv.org/html/2611.11854v1",
+          "domain": "arxiv.org",
+          "published": "Tue, 10 Nov 2026 08:00:00 GMT",
+          "point": "!(2611.11854v1/figures/fig_teaser.png) ## I Introduction Vision-Language-Action (VLA) models have become a default recip…",
+          "why": ""
+        },
+        {
+          "title": "[2611.11665] HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+          "url": "https://arxiv.org/abs/2611.11665",
+          "domain": "arxiv.org",
+          "published": "Sun, 08 Nov 2026 00:00:00 GMT",
+          "point": "in cluttered outdoor rough terrain by proposing a hybrid planning framework that combines semantic priors from a Vision-…",
+          "why": ""
+        },
+        {
+          "title": "HINT-VLM: Humanoid Interactive Navigation over Rough Terrain with Embodiment-Grounded Vision-Language Model",
+          "url": "https://arxiv.org/html/2611.11665",
+          "domain": "arxiv.org",
+          "published": "Sun, 08 Nov 2026 10:00:00 GMT",
+          "point": "outdoor rough terrain by proposing a hybrid planning framework that combines semantic priors from a Vision-Language Mode…",
+          "why": ""
+        },
+        {
+          "title": "AHEADance: Anticipatory Humanoid Dancefrom Streaming Audio",
+          "url": "https://arxiv.org/html/2611.13370v1",
+          "domain": "arxiv.org",
+          "published": "Mon, 09 Nov 2026 10:00:00 GMT",
+          "point": "### II-C Humanoid Motion Execution Motion imitation and learned control provide reusable execution layers. PHC studies r…",
+          "why": ""
+        },
+        {
+          "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+          "url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control",
+          "domain": "therobotreport.com",
+          "published": "Mon, 09 Nov 2026 18:34:38 GMT",
+          "point": "Another goal of the experiment was to understand unstructured environment adaptability. Wu addresses the limitations of…",
+          "why": ""
+        },
+        {
+          "title": "ReACT: Reflection-Consistent Modulation and Cross-Load Consistency for Humanoid Velocity Tracking Under Asymmetric Loads",
+          "url": "https://arxiv.org/html/2611.13929v1",
+          "domain": "arxiv.org",
+          "published": "Wed, 11 Nov 2026 05:00:00 GMT",
+          "point": "For force-interactive humanoid tasks, FALCON jointly trains separate upper-body and lower-body policies with a force cur…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery",
+          "url": "https://arxiv.org/html/2610.24806v1",
+          "domain": "arxiv.org",
+          "published": "Sat, 17 Oct 2026 00:00:00 GMT",
+          "point": "Our results demonstrate the feasibility of executing multi-round biomolecular discovery in a closed loop between AI agen…",
+          "why": ""
+        },
+        {
+          "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+          "url": "https://arxiv.org/html/2611.03832v1",
+          "domain": "arxiv.org",
+          "published": "Mon, 02 Nov 2026 04:00:00 GMT",
+          "point": "In drug discovery and related fields, existing systems apply this approach at different levels, from assisting interacti…",
+          "why": ""
+        },
+        {
+          "title": "Building better protein binders | Nature Research Custom",
+          "url": "https://www.nature.com/articles/d42473-026-00159-5",
+          "domain": "nature.com",
+          "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+          "point": "How does your tool design binders from scratch? Our work builds on that of AlphaFold2, a system which was awarded the No…",
+          "why": ""
+        },
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "Tue, 10 Nov 2026 08:00:00 GMT",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "Can agents reliably design therapeutic antibodies?",
+          "url": "https://arxiv.org/html/2611.00558v1",
+          "domain": "arxiv.org",
+          "published": "Sat, 31 Oct 2026 00:00:00 GMT",
+          "point": "Large language models (LLMs) are increasingly deployed as agents in scientific discovery, coupling natural-language reas…",
+          "why": ""
+        },
+        {
+          "title": "Physicochemical rule-embedded generative modeling for constrained peptide therapeutics | npj Drug Discovery",
+          "url": "https://www.nature.com/articles/s44386-026-00090-1",
+          "domain": "nature.com",
+          "published": "Thu, 29 Oct 2026 00:00:00 GMT",
+          "point": "Structural realism also depends on the object a model was built to generate. Target-conditioned systems often emphasize…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
