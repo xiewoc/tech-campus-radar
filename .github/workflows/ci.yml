@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Byte-compile
+        run: python -m compileall -q .
+
+      - name: Import check
+        run: python -c "import llm, review, filter, brief, demand, aggregate, api, main; print('imports ok:', ', '.join(llm.providers()))"
+
+      - name: CLI check
+        run: |
+          python main.py --help
+          python api.py --help
+          python review.py --help

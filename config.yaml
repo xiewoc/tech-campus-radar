@@ -1,0 +1,95 @@
+# ============ ④ 过滤层配置 ============
+# 岗位搜索关键词（每家公司的招聘 API 按关键词查）
+keywords:
+  - "算法"
+  - "后端"
+  - "芯片"
+  - "大模型"
+  - "机器学习"
+
+# 岗位类别白名单：category 命中任意子串才保留；留空则不过滤
+category_allow:
+  - "算法"
+  - "软件"
+  - "研发"
+  - "芯片"
+  - "机器学习"
+  - "数据"
+  - "安全"
+  - "后端"
+  - "前端"
+  - "客户端"
+  - "硬件"
+  - "NLP"
+  - "计算机视觉"
+  - "技术"          # 腾讯只给到「技术」这一层分类
+
+# 新闻关键词过滤：include 为空表示不做关键词限制
+news_filter:
+  include: []
+  exclude:
+    - "广告"
+    - "推广"
+    - "sponsored"
+    - "促销"
+  min_title_len: 6
+
+# ============ ⑤ 岗位需求画像 ============
+demand:
+  enabled: true
+  top_n: 25              # 报告里展示的技能条数
+  min_count: 2           # 少于这个提及次数的词不展示
+  extra_skills: []       # 追加自定义技能词，例如 ["RAGFlow", "vLLM"]
+
+# ============ LLM 语义筛选（可选，永远在最后一步） ============
+llm:
+  provider: "openai_compatible"   # 内置：openai_compatible / mock；可自定义注册
+  base_url: ""                    # 例如 https://api.openai.com/v1，留空用官方
+  api_key: ""                     # 留空读环境变量 OPENAI_API_KEY
+  model: "gpt-4o-mini"
+  temperature: 0.2
+  max_tokens: 2048
+  timeout: 60
+  retries: 3
+  extra_headers: {}               # 某些网关需要自定义头
+  enabled: false                  # 过滤阶段的 LLM 打分开关
+  min_score: 6
+
+# ============ ⑥ 前沿简报（Tavily 检索 + LLM 归纳） ============
+tavily:
+  api_key: ""               # 也可用环境变量 TAVILY_API_KEY
+  search_depth: "advanced"  # basic 更快、advanced 更全
+  topic: "news"             # news | general
+  days: 7
+  max_results: 8
+  concurrency: 3
+
+brief:
+  enabled: true
+  output_dir: "briefs"
+  max_items_per_topic: 6
+  use_llm: true             # 关掉就退化成抽取式摘要，结构不变
+  language: "zh"
+  push: false               # 是否把简报推到飞书
+  review: false             # true = 先入审校队列，approve 后才写 briefs/
+
+# 审校队列目录
+review:
+  dir: "review"
+
+# ============ ③ 采集节奏 ============
+fetch:
+  job_max_pages: 3        # 每家公司每关键词最多翻几页；太大容易触发 WAF 405
+  request_interval: 0.4
+  rss_concurrency: 6
+
+# ============ ⑤ 输出 ============
+# 只影响 Markdown / 推送的展示条数，去重入库仍是全量
+output:
+  max_news: 80
+  max_jobs: 150
+  max_job_rss: 40
+
+feishu_webhook: ""        # 填 webhook 才会推送，留空自动跳过
+digest_dir: "digests"
+db_path: "seen.db"

@@ -1,0 +1,35 @@
+name: Frontier Brief
+
+on:
+  schedule:
+    - cron: "0 22 * * *"        # 每天 06:00（Asia/Shanghai）
+  workflow_dispatch:
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Build frontier brief
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python main.py --only brief
+
+      - name: Persist briefs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A briefs review
+          git diff --cached --quiet || git commit -m "chore: daily frontier brief"
+          git push

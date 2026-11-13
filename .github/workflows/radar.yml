@@ -1,0 +1,39 @@
+name: Tech & Campus Radar
+on:
+  schedule:
+    - cron: "0 */4 * * *"        # 每 4 小时（UTC）
+  workflow_dispatch:
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - run: pip install -r requirements.txt
+
+      - name: Run radar
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python main.py
+
+      # 去重库 + 每日 Markdown 都提交回仓库，下次运行才能只推新内容
+      - name: Persist state
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A seen.db digests
+          git diff --cached --quiet || git commit -m "chore: update seen.db & digests"
+          git push

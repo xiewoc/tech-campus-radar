@@ -1,0 +1,51 @@
+# ============ ① 源配置层 ============
+# OPML 目录：放 *.opml 进去会被自动加载（可与下面的 news 列表混用，重复 URL 自动去掉）
+opml_dir: sources/opml
+
+# 科技新闻 RSS
+news:
+  - {name: TechCrunch,        url: "https://techcrunch.com/feed/",              category: 科技}
+  - {name: The Verge,         url: "https://www.theverge.com/rss/index.xml",    category: 科技}
+  - {name: Ars Technica,      url: "https://arstechnica.com/feed/",             category: 科技}
+  - {name: Hacker News,       url: "https://hnrss.org/frontpage",               category: 社区}
+  - {name: web.dev,           url: "https://web.dev/feed.xml",                  category: 前端}
+  - {name: JavaScript Weekly, url: "https://javascriptweekly.com/rss/",         category: 前端}
+  - {name: 阮一峰的网络日志,   url: "https://www.ruanyifeng.com/blog/atom.xml",  category: 中文}
+  - {name: InfoQ 中文,        url: "https://www.infoq.cn/feed",                 category: 中文}
+
+# 前沿简报主题：每个主题一次 Tavily 检索；domains 可选，用于限定站点
+topics:
+  - name: 大模型与推理
+    query: "large language model reasoning inference post-training research"
+    domains: [arxiv.org, openai.com, anthropic.com, deepmind.google, huggingface.co]
+    days: 7
+  - name: 芯片与算力
+    query: "AI chip GPU HBM accelerator datacenter architecture"
+    domains: [anandtech.com, semiengineering.com, nvidia.com, arxiv.org]
+    days: 7
+  - name: 具身智能与机器人
+    query: "embodied AI humanoid robot foundation model manipulation"
+    domains: [arxiv.org, ieeexplore.ieee.org, therobotreport.com]
+    days: 7
+  - name: AI for Science
+    query: "AI for science protein structure materials discovery simulation"
+    domains: [nature.com, science.org, arxiv.org]
+    days: 14
+
+# 招聘：API provider（providers/ 目录）+ 海外远程招聘 RSS
+jobs:
+  providers:
+    - huawei
+    - bytedance
+    - tencent
+    - meituan
+    - xiaomi
+    - netease
+    - nio
+    - minimax
+  rss:
+    # We Work Remotely 目前挂在 Cloudflare 人机校验后面，纯 HTTP 拉会 403（"Just a moment..."），
+    # 需要浏览器渲染才能取，先停用；以后可换 RSSHub 镜像或用 Playwright 补齐。
+    # - {name: We Work Remotely, url: "https://weworkremotely.com/categories/remote-programming-jobs.rss", category: 远程}
+    - {name: Remotive, url: "https://remotive.com/remote-jobs/feed", category: 远程}
+    - {name: Jobicy,   url: "https://jobicy.com/?feed=job_feed",     category: 远程}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>AI / 大模型订阅包</title></head>
+  <body>
+    <outline text="AI 媒体">
+      <outline text="机器之心" type="rss" xmlUrl="https://www.jiqizhixin.com/rss" htmlUrl="https://www.jiqizhixin.com/"/>
+      <outline text="量子位" type="rss" xmlUrl="https://www.qbitai.com/feed" htmlUrl="https://www.qbitai.com/"/>
+    </outline>
+    <outline text="官方博客">
+      <outline text="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/"/>
+      <outline text="Google AI Blog" type="rss" xmlUrl="https://blog.google/technology/ai/rss/" htmlUrl="https://blog.google/technology/ai/"/>
+      <outline text="Hugging Face Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+      <outline text="MIT Technology Review AI" type="rss" xmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/feed" htmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/"/>
+    </outline>
+  </body>
+</opml>

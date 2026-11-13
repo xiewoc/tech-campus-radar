@@ -1,0 +1,212 @@
+{
+  "total": 20,
+  "with_jd": 20,
+  "skills": [
+    {
+      "name": "深度学习",
+      "count": 15,
+      "ratio": 0.75
+    },
+    {
+      "name": "强化学习",
+      "count": 13,
+      "ratio": 0.65
+    },
+    {
+      "name": "大模型/LLM",
+      "count": 11,
+      "ratio": 0.55
+    },
+    {
+      "name": "PyTorch",
+      "count": 10,
+      "ratio": 0.5
+    },
+    {
+      "name": "Python",
+      "count": 9,
+      "ratio": 0.45
+    },
+    {
+      "name": "机器学习",
+      "count": 8,
+      "ratio": 0.4
+    },
+    {
+      "name": "多模态",
+      "count": 8,
+      "ratio": 0.4
+    },
+    {
+      "name": "Agent",
+      "count": 4,
+      "ratio": 0.2
+    },
+    {
+      "name": "Transformer",
+      "count": 3,
+      "ratio": 0.15
+    },
+    {
+      "name": "数据分析",
+      "count": 3,
+      "ratio": 0.15
+    },
+    {
+      "name": "TensorFlow",
+      "count": 3,
+      "ratio": 0.15
+    },
+    {
+      "name": "微调",
+      "count": 3,
+      "ratio": 0.15
+    },
+    {
+      "name": "C++",
+      "count": 3,
+      "ratio": 0.15
+    },
+    {
+      "name": "MATLAB",
+      "count": 3,
+      "ratio": 0.15
+    },
+    {
+      "name": "RAG",
+      "count": 2,
+      "ratio": 0.1
+    },
+    {
+      "name": "推理优化",
+      "count": 2,
+      "ratio": 0.1
+    },
+    {
+      "name": "计算机视觉",
+      "count": 2,
+      "ratio": 0.1
+    }
+  ],
+  "directions": [
+    {
+      "name": "算法",
+      "count": 20
+    },
+    {
+      "name": "研究",
+      "count": 4
+    },
+    {
+      "name": "安全",
+      "count": 1
+    },
+    {
+      "name": "芯片",
+      "count": 1
+    }
+  ],
+  "degrees": [
+    {
+      "name": "硕士",
+      "count": 11
+    },
+    {
+      "name": "博士",
+      "count": 3
+    },
+    {
+      "name": "本科",
+      "count": 2
+    }
+  ],
+  "majors": [
+    {
+      "name": "计算机",
+      "count": 15
+    },
+    {
+      "name": "人工智能",
+      "count": 11
+    },
+    {
+      "name": "自动化",
+      "count": 8
+    },
+    {
+      "name": "数学",
+      "count": 7
+    },
+    {
+      "name": "物理",
+      "count": 4
+    },
+    {
+      "name": "电子信息",
+      "count": 3
+    },
+    {
+      "name": "统计",
+      "count": 2
+    },
+    {
+      "name": "软件工程",
+      "count": 1
+    }
+  ],
+  "cities": [
+    {
+      "name": "上海",
+      "count": 20
+    },
+    {
+      "name": "北京",
+      "count": 8
+    },
+    {
+      "name": "深圳",
+      "count": 1
+    }
+  ],
+  "company_skills": {
+    "nio": [
+      {
+        "name": "深度学习",
+        "count": 15
+      },
+      {
+        "name": "强化学习",
+        "count": 13
+      },
+      {
+        "name": "大模型/LLM",
+        "count": 11
+      },
+      {
+        "name": "PyTorch",
+        "count": 10
+      },
+      {
+        "name": "Python",
+        "count": 9
+      },
+      {
+        "name": "机器学习",
+        "count": 8
+      }
+    ]
+  },
+  "report": "# 岗位需求画像 · 2026-11-07\n\n> 样本 20 个岗位（含 JD 20 个） · 来源：nio 20\n\n## 技能需求 Top 3\n\n| # | 技能 | 提及岗位 | 占比 | |\n| --- | --- | --- | --- | --- |\n| 1 | 深度学习 | 15 | 75% | ███████████████····· |\n| 2 | 强化学习 | 13 | 65% | █████████████······· |\n| 3 | 大模型/LLM | 11 | 55% | ███████████········· |\n\n## 岗位方向分布\n\n| 方向 | 岗位数 | 占比 |\n| --- | --- | --- |\n| 算法 | 20 | 100% |\n| 研究 | 4 | 20% |\n| 安全 | 1 | 5% |\n| 芯片 | 1 | 5% |\n\n## 学历门槛（JD 中提及）\n\n| 学历 | 岗位数 |\n| --- | --- |\n| 硕士 | 11 |\n| 博士 | 3 |\n| 本科 | 2 |\n\n## 专业偏好（JD 中提及）\n\n计算机（15） · 人工智能（11） · 自动化（8） · 数学（7） · 物理（4） · 电子信息（3） · 统计（2） · 软件工程（1）\n\n## 城市热度 Top 15\n\n| 城市 | 岗位数 |\n| --- | --- |\n| 上海 | 20 |\n| 北京 | 8 |\n| 深圳 | 1 |\n\n## 各公司需求差异（Top 6 技能）\n\n- **nio**：深度学习（15）、强化学习（13）、大模型/LLM（11）、PyTorch（10）、Python（9）、机器学习（8）\n\n---\n\n_词表见 demand.py 的 SKILLS / DIRECTIONS，可在 config.yaml 的 demand.extra_skills 里补充。_\n",
+  "sources": [
+    {
+      "provider": "nio",
+      "label": "蔚来",
+      "ok": true,
+      "count": 20,
+      "errors": [],
+      "elapsed_ms": 1981
+    }
+  ],
+  "took_ms": 1982,
+  "fetched_at": "2026-11-07T15:04:10+08:00"
+}
