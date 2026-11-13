@@ -36,7 +36,7 @@ def _normalize(body: dict, query: str) -> dict:
             "url": url,
             "content": (r.get("content") or "").strip(),
             "score": r.get("score"),
-            "published": r.get("published_date") or r.get("published") or "",
+            "published": _norm_date(r.get("published_date") or r.get("published") or ""),
             "domain": _domain(url),
         })
     return {
@@ -44,6 +44,24 @@ def _normalize(body: dict, query: str) -> dict:
         "answer": body.get("answer") or "",
         "results": results,
     }
+
+
+def _norm_date(value) -> str:
+    """把 Tavily 返回的多种日期格式统一成 YYYY-MM-DD。"""
+    if not value:
+        return ""
+    text = str(value).strip()
+    if not text:
+        return ""
+    # 已经是 2026-11-07 或 ISO
+    m = __import__("re").match(r"(\d{4})-(\d{2})-(\d{2})", text)
+    if m:
+        return m.group(0)
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(text).strftime("%Y-%m-%d")
+    except Exception:
+        return text
 
 
 def _domain(url: str) -> str:
