@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T09:55:18+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 32,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：8 条，最值得看的是《From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models》。",
+    "芯片与算力：8 条，最值得看的是《The Rise of Low Precision Floating Point》。",
+    "具身智能与机器人：8 条，最值得看的是《SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models》。",
+    "AI for Science：8 条，最值得看的是《Scaling Science: Toward a Chain Reaction of Discovery》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models",
+          "url": "https://arxiv.org/html/2611.14149v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "End-to-end approaches provide substantial evidence of improved information-seeking performance. Search-R1 demonstrates t…",
+          "why": ""
+        },
+        {
+          "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+          "url": "https://arxiv.org/html/2611.12791v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "### II-C Explainability and Chain-of-Thought Reasoning. Traditional AutoML algorithms and neural search agents are frequ…",
+          "why": ""
+        },
+        {
+          "title": "Paper page - Incentivizing Self-Learning in Large Language Models via Reinforcement Learning",
+          "url": "https://huggingface.co/papers/2610.39671",
+          "domain": "huggingface.co",
+          "published": "2026-11-12",
+          "point": "Large language models (LLMs) draw on parametric knowledge and retrieval-augmented generation (RAG) to solve knowledge-in…",
+          "why": ""
+        },
+        {
+          "title": "Early Reflections on How Large Language Models are Reshaping Software Engineering Research",
+          "url": "https://arxiv.org/html/2611.15797v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "2 Both LLMs were configured with temperature at zero, a max. output length of 1,024 tokens, and a 60-second timeout. We…",
+          "why": ""
+        },
+        {
+          "title": "Decision Models in Hugging Face",
+          "url": "https://huggingface.co/blog/decision",
+          "domain": "huggingface.co",
+          "published": "2026-11-10",
+          "point": "An interesting detail is that the above APIs works with compatible autoregressive language models too. Transformers cons…",
+          "why": ""
+        },
+        {
+          "title": "Divide and Conquer: A Hybrid Strategy Defeats Multimodal Large Language Models",
+          "url": "https://arxiv.org/html/2412.16555",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Since closed-source MLLMs are typically trained on large-scale datasets and lack clear interpretability paths, jailbreak…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "The Rise of Low Precision Floating Point",
+          "url": "https://arxiv.org/html/2611.00301",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "Since the IEA report, AI datacenter growth has exceeded all expectations, with $700 billion expected to be spent in 2026…",
+          "why": ""
+        },
+        {
+          "title": "PACER: GPU Excursion Management for ML Workloads",
+          "url": "https://arxiv.org/html/2611.17206",
+          "domain": "arxiv.org",
+          "published": "2026-11-12",
+          "point": "Voracious scaling demands in domains like graph analytics, high performance computing (HPC), and machine learning (ML) h…",
+          "why": ""
+        },
+        {
+          "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
+          "url": "https://arxiv.org/html/2611.14776v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "### III-A System organization Figure 3 shows our baseline system organization, which follows H3H^{3}, the first system-a…",
+          "why": ""
+        },
+        {
+          "title": "Rethinking Memory For AI Inference",
+          "url": "https://semiengineering.com/rethinking-memory-for-ai-inference",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "“The memory shortage is partially due to current state-of-the-art design and use of available memory,” said Satish Radha…",
+          "why": ""
+        },
+        {
+          "title": "AscSpMM: Efficient SpMM on Ascend NPUs via Pipelined Vector–Cube Collaboration",
+          "url": "https://arxiv.org/html/2611.11823v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "| | | | --- | Configuration | Ascend 910B3 | NVIDIA A100 | | Accelerator | Ascend 910B3 | A100-SXM4-40GB | | Peak FP16 F…",
+          "why": ""
+        },
+        {
+          "title": "Signature IP Semiconductor Engineering",
+          "url": "https://semiengineering.com/tag/signature-ip",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "SALA: Semantically Aligned Latent Actions Enable Dual-Axis Scaling of Embodied Foundation Models",
+          "url": "https://arxiv.org/html/2611.17110",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "Refer to caption ## 10 Real-World Platform All real-world experiments use a Sharpa North robot11 1 , a wheeled full-body…",
+          "why": ""
+        },
+        {
+          "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+          "url": "https://arxiv.org/html/2611.11854v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "!(2611.11854v1/figures/fig_teaser.png) ## I Introduction Vision-Language-Action (VLA) models have become a default recip…",
+          "why": ""
+        },
+        {
+          "title": "EgoX: Egocentric Cross-EmbodimentManipulation with Embodiment Dreaming",
+          "url": "https://arxiv.org/html/2611.16728v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-12",
+          "point": "with a Transformer trunk shared across embodiments. A training-only embodiment-dreaming objective predicts latent repres…",
+          "why": ""
+        },
+        {
+          "title": "Embodied First Exam",
+          "url": "https://arxiv.org/html/2611.12177",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Language models have been used to plan tasks for robots, write robot programs and design training signals. SayCan , Inne…",
+          "why": ""
+        },
+        {
+          "title": "BWM-Forge: Agentic World Programming forEmbodied Intelligence",
+          "url": "https://arxiv.org/html/2611.16221v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-12",
+          "point": "The manipulation examples emphasize interactions with nearby task objects, whereas the locomotion examples expose the re…",
+          "why": ""
+        },
+        {
+          "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+          "url": "https://arxiv.org/html/2611.11981v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "We systematically evaluate Thermo-VLA on a Unitree G1 bimanual humanoid robot across six real-world manipulation tasks o…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "Structure-based virtual screening with AlphaFold identifies CLIP1-LTK inhibitors | Acta Pharmacologica Sinica",
+          "url": "https://www.nature.com/articles/s41401-026-01957-9",
+          "domain": "nature.com",
+          "published": "2026-11-13",
+          "point": "Artificial intelligence-based protein structure prediction provides new opportunities for structure-based drug discovery…",
+          "why": ""
+        },
+        {
+          "title": "Can agents reliably design therapeutic antibodies?",
+          "url": "https://arxiv.org/html/2611.00558v1",
+          "domain": "arxiv.org",
+          "published": "2026-10-31",
+          "point": "Large language models (LLMs) are increasingly deployed as agents in scientific discovery, coupling natural-language reas…",
+          "why": ""
+        },
+        {
+          "title": "Physicochemical rule-embedded generative modeling for constrained peptide therapeutics | npj Drug Discovery",
+          "url": "https://www.nature.com/articles/s44386-026-00090-1",
+          "domain": "nature.com",
+          "published": "2026-10-29",
+          "point": "Structural realism also depends on the object a model was built to generate. Target-conditioned systems often emphasize…",
+          "why": ""
+        },
+        {
+          "title": "Chem World: A Large-Scale Benchmark and Physics-Aware Framework for Trustworthy Molecular Property Prediction",
+          "url": "https://arxiv.org/html/2611.13945",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Accurate molecular property prediction is fundamental to materials discovery, chemical engineering, and pharmaceutical d…",
+          "why": ""
+        },
+        {
+          "title": "ScienceVision: Can AI Observe and Reason Like a Scientist?",
+          "url": "https://arxiv.org/html/2611.04087v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-02",
+          "point": "QM9 supplies calculated molecular geometries and quantum-chemical properties (Ramakrishnan et al., 2014). ATOM3D organiz…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
