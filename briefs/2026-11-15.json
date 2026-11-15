@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T09:27:12+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 32,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：8 条，最值得看的是《Large Language Models as a Universal Searcher for Open-World Automated Machine Learning》。",
+    "芯片与算力：8 条，最值得看的是《Embodied Emissions of 2.5D and 3D Scaling in Chipletized GPUs for Low- ...》。",
+    "具身智能与机器人：8 条，最值得看的是《Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation》。",
+    "AI for Science：8 条，最值得看的是《MolRSI: A Recursive Self-Improving AI agent for Molecular Discovery》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+          "url": "https://arxiv.org/html/2611.12791v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "### II-C Explainability and Chain-of-Thought Reasoning. Traditional AutoML algorithms and neural search agents are frequ…",
+          "why": ""
+        },
+        {
+          "title": "Primitives and Paths: Predicting What Post-Training Can Do from What the Base Model Already Has",
+          "url": "https://arxiv.org/html/2611.11260",
+          "domain": "arxiv.org",
+          "published": "2026-11-08",
+          "point": "## 2 Background ### 2.1 RL as capability amplification One prominent view of reasoning post-training is that RL primaril…",
+          "why": ""
+        },
+        {
+          "title": "Towards Better Legal Reasoning LLMs: Signal Balancing and Reward Scheduling",
+          "url": "https://arxiv.org/html/2611.15346",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Directly post-training a foundation model on legal-domain data is insufficient to address these challenges. During Super…",
+          "why": ""
+        },
+        {
+          "title": "Learning Evidence-Grounded Reasoning for Context-Aware Time Series Forecasting",
+          "url": "https://arxiv.org/html/2611.12285",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Our main contributions are summarized as follows: We argue that effective context-aware forecasting requires interpretin…",
+          "why": ""
+        },
+        {
+          "title": "SCALE: Small-Model-First Concept Abstraction with LLM-Guided Experience Internalization",
+          "url": "https://arxiv.org/html/2611.12120v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "Large language models offer flexible reasoning but can impose substantial inference cost when called for every observati…",
+          "why": ""
+        },
+        {
+          "title": "CS-54k: A Paper-Grounded Corpus and Benchmark for AI Research QA",
+          "url": "https://arxiv.org/html/2510.20279",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "14,474 openly licensed AI research papers. The corpus covers eight recurring paper components, including research domain…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Embodied Emissions of 2.5D and 3D Scaling in Chipletized GPUs for Low- ...",
+          "url": "https://arxiv.org/pdf/2610.32830",
+          "domain": "arxiv.org",
+          "published": "",
+          "point": "8 accelerator compute dies (XCD) placed on the IOD with hybrid bonding, and 8 micro-bumped stacks of 12-Hi HBM3 on top o…",
+          "why": ""
+        },
+        {
+          "title": "PACER: GPU Excursion Management for ML Workloads",
+          "url": "https://arxiv.org/html/2611.17206",
+          "domain": "arxiv.org",
+          "published": "2026-11-12",
+          "point": "Voracious scaling demands in domains like graph analytics, high performance computing (HPC), and machine learning (ML) h…",
+          "why": ""
+        },
+        {
+          "title": "SlipStream: Enabling HBF for GPU Systems by Mitigating the Latency and SRAM Overheads",
+          "url": "https://arxiv.org/html/2611.14776v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "### III-A System organization Figure 3 shows our baseline system organization, which follows H3H^{3}, the first system-a…",
+          "why": ""
+        },
+        {
+          "title": "Rethinking Memory For AI Inference",
+          "url": "https://semiengineering.com/rethinking-memory-for-ai-inference",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "“The memory shortage is partially due to current state-of-the-art design and use of available memory,” said Satish Radha…",
+          "why": ""
+        },
+        {
+          "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
+          "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        },
+        {
+          "title": "Variable-Length Prompts on Chimera GPNPU",
+          "url": "https://semiengineering.com/variable-length-prompts-on-chimera-gpnpu",
+          "domain": "semiengineering.com",
+          "published": "2026-11-11",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Decoupled Asynchronous System for Humanoids (DASH): Latency-Agnostic Scaling of Vision-Language-Action Models for Humanoid Manipulation",
+          "url": "https://arxiv.org/html/2611.11854v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "!(2611.11854v2/figures/fig_teaser.png) ## I Introduction Vision-Language-Action (VLA) models have become a default recip…",
+          "why": ""
+        },
+        {
+          "title": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning",
+          "url": "https://arxiv.org/html/2611.15381v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "The GR00T family instead develops generalist foundation models for humanoid and bimanual robotic embodiments . [...] Lar…",
+          "why": ""
+        },
+        {
+          "title": "LEASH: Stay Safe in Agentic Robotics",
+          "url": "https://arxiv.org/html/2611.14115v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Achieving artificial general intelligence (AGI) is a central goal of research in embodied intelligence. Several research…",
+          "why": ""
+        },
+        {
+          "title": "Embodied First Exam",
+          "url": "https://arxiv.org/html/2611.12177",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Language models have been used to plan tasks for robots, write robot programs and design training signals. SayCan , Inne…",
+          "why": ""
+        },
+        {
+          "title": "Thermo-VLA: A Thermal-Aware Vision-Language-Action Model with Gated Residual Modulation for Robotic Manipulation",
+          "url": "https://arxiv.org/html/2611.11981v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-09",
+          "point": "We systematically evaluate Thermo-VLA on a Unitree G1 bimanual humanoid robot across six real-world manipulation tasks o…",
+          "why": ""
+        },
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.17238",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "Manipulation representations. VLA/WAM inputs include the current robot state and head, left-wrist, and right-wrist image…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "MolRSI: A Recursive Self-Improving AI agent for Molecular Discovery",
+          "url": "https://arxiv.org/html/2610.39714v1",
+          "domain": "arxiv.org",
+          "published": "2026-10-29",
+          "point": "? ]. Virtual screening, for example, requires jointly considering predictions of activity [? ] and toxicity alongside st…",
+          "why": ""
+        },
+        {
+          "title": "SpringerNature_HumanitSocSci...",
+          "url": "https://www.nature.com/articles/s41599-026-08833-1_reference.pdf",
+          "domain": "nature.com",
+          "published": "",
+          "point": "Such applications have demonstrated the potential to reduce discovery timelines, lower attrition rates, and decrease R&D…",
+          "why": ""
+        },
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "Can agents reliably design therapeutic antibodies?",
+          "url": "https://arxiv.org/html/2611.00558v1",
+          "domain": "arxiv.org",
+          "published": "2026-10-31",
+          "point": "Large language models (LLMs) are increasingly deployed as agents in scientific discovery, coupling natural-language reas…",
+          "why": ""
+        },
+        {
+          "title": "Physicochemical rule-embedded generative modeling for constrained peptide therapeutics | npj Drug Discovery",
+          "url": "https://www.nature.com/articles/s44386-026-00090-1",
+          "domain": "nature.com",
+          "published": "2026-10-29",
+          "point": "Structural realism also depends on the object a model was built to generate. Target-conditioned systems often emphasize…",
+          "why": ""
+        },
+        {
+          "title": "ScienceVision: Can AI Observe and Reason Like a Scientist?",
+          "url": "https://arxiv.org/html/2611.04087v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-02",
+          "point": "QM9 supplies calculated molecular geometries and quantum-chemical properties (Ramakrishnan et al., 2014). ATOM3D organiz…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
