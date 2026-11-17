@@ -1,0 +1,250 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T12:16:12+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 32,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：8 条，最值得看的是《Rethinking “RL Generalizes, SFT Memorizes”:The Role of SFT Data》。",
+    "芯片与算力：8 条，最值得看的是《PACER: GPU Excursion Management for ML Workloads》。",
+    "具身智能与机器人：8 条，最值得看的是《From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence》。",
+    "AI for Science：8 条，最值得看的是《Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Rethinking “RL Generalizes, SFT Memorizes”:The Role of SFT Data",
+          "url": "https://arxiv.org/html/2611.14912v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "long reasoning can be elicited from small but carefully curated SFT datasets: s1 uses 1,000 examples \\, LIMO reports str…",
+          "why": ""
+        },
+        {
+          "title": "From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models",
+          "url": "https://arxiv.org/html/2611.14149v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Belief revision. When retrieved claims conflict with parametric knowledge, the model must reconcile competing informatio…",
+          "why": ""
+        },
+        {
+          "title": "Towards Better Legal Reasoning LLMs: Signal Balancing and Reward Scheduling",
+          "url": "https://arxiv.org/html/2611.15346",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Directly post-training a foundation model on legal-domain data is insufficient to address these challenges. During Super…",
+          "why": ""
+        },
+        {
+          "title": "The Illusion of Diversity: Aligning LLM Exploration via Effective Entropy",
+          "url": "https://arxiv.org/html/2611.15493",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "Answer: [Yes] Justification: LLMs are central to the research, as the paper studies RLVR post-training of DeepSeek-R1-Di…",
+          "why": ""
+        },
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.17924",
+          "domain": "arxiv.org",
+          "published": "2026-11-16",
+          "point": "Reinforcement learning (RL) is now an essential step in post-training of large language models (LLMs). RL techniques ada…",
+          "why": ""
+        },
+        {
+          "title": "daVinci-Prover: Agent-Native Mid-Training for Formal Theorem Proving",
+          "url": "https://arxiv.org/html/2611.16433",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "Despite this progress, existing formal-reasoning corpora are still dominated by whole-proof trajectories, where models p…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "PACER: GPU Excursion Management for ML Workloads",
+          "url": "https://arxiv.org/html/2611.17206",
+          "domain": "arxiv.org",
+          "published": "2026-11-12",
+          "point": "Voracious scaling demands in domains like graph analytics, high performance computing (HPC), and machine learning (ML) h…",
+          "why": ""
+        },
+        {
+          "title": "Rethinking Memory For AI Inference",
+          "url": "https://semiengineering.com/rethinking-memory-for-ai-inference",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "“The memory shortage is partially due to current state-of-the-art design and use of available memory,” said Satish Radha…",
+          "why": ""
+        },
+        {
+          "title": "Chip Industry Week In Review",
+          "url": "https://semiengineering.com/chip-industry-week-in-review-164",
+          "domain": "semiengineering.com",
+          "published": "2026-11-13",
+          "point": "#### Chips and systems AMD introduced its 6th-gen EPYC server and embedded processors, including models for semiconducto…",
+          "why": ""
+        },
+        {
+          "title": "Signature IP Semiconductor Engineering",
+          "url": "https://semiengineering.com/tag/signature-ip",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        },
+        {
+          "title": "low-voltage design Semiconductor Engineering",
+          "url": "https://semiengineering.com/tag/low-voltage-design",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        },
+        {
+          "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
+          "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea",
+          "domain": "semiengineering.com",
+          "published": "2026-11-12",
+          "point": "What it is, why it's important, and how it's impacting the movement of data. by Bryon Moyer ### Vertical Integration Bec…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "From Egocentric Human Video to Robot Manipulation in the Era of Embodied Intelligence",
+          "url": "https://arxiv.org/html/2611.13610v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "A common approach combines an inverse model that encodes visual transitions with a forward model that predicts their out…",
+          "why": ""
+        },
+        {
+          "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+          "url": "https://arxiv.org/html/2611.18359v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "In our framework, S2 is realized by a foundation model and an embodied harness. The S2 foundation model supplies knowled…",
+          "why": ""
+        },
+        {
+          "title": "CIALLO: Learning Shared Intent Representations for Cross-Embodiment Manipulation",
+          "url": "https://arxiv.org/html/2611.13732v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "We presented CIALLO, an action codec that separates shared behavioral intent from embodiment-specific control. During pr…",
+          "why": ""
+        },
+        {
+          "title": "Vision-Language-Action Models:A Life-Cycle Survey of Design, Training and Deployment",
+          "url": "https://arxiv.org/html/2611.18372v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "This mirrors the hierarchical VLAs of Section 3, and NaVILA’s language commands over an RL locomotion policy are a navig…",
+          "why": ""
+        },
+        {
+          "title": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible. Low-Cost Mobile Bimanual Manipulation for Long-Horizon Toilet Cleaning",
+          "url": "https://arxiv.org/html/2611.15381v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-11",
+          "point": "The GR00T family instead develops generalist foundation models for humanoid and bimanual robotic embodiments . [...] Lar…",
+          "why": ""
+        },
+        {
+          "title": "Embodied First Exam",
+          "url": "https://arxiv.org/html/2611.12177",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Language models have been used to plan tasks for robots, write robot programs and design training signals. SayCan , Inne…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology",
+          "url": "https://www.nature.com/articles/s41698-026-01705-6",
+          "domain": "nature.com",
+          "published": "2026-10-30",
+          "point": "Recent advances have further expanded the capabilities of protein foundation models beyond static structure prediction.…",
+          "why": ""
+        },
+        {
+          "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+          "url": "https://arxiv.org/html/2611.03832v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-02",
+          "point": "In drug discovery and related fields, existing systems apply this approach at different levels, from assisting interacti…",
+          "why": ""
+        },
+        {
+          "title": "Building better protein binders | Nature Research Custom",
+          "url": "https://www.nature.com/articles/d42473-026-00159-5",
+          "domain": "nature.com",
+          "published": "2026-10-31",
+          "point": "Training such a machine learning model is like teaching humans. If you show it enough examples of protein structures, it…",
+          "why": ""
+        },
+        {
+          "title": "A Full-Spectrum Generative Lead Discovery (FSGLD) pipeline via DRUG-GAN: A multiscale method for drug-like/target-specific compound library generation | Science Advances",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aei5257",
+          "domain": "science.org",
+          "published": "2026-10-28",
+          "point": "Recent advances in structure-conditioned generative models, including diffusion- and flow-matching–based approaches (64–…",
+          "why": ""
+        },
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.17391v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-12",
+          "point": "We combine machine learning with high-throughput screening to optimize the function of industrially relevant proteins. T…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
