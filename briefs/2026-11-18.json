@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:16:19+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 19,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "芯片与算力：6 条，最值得看的是《System Overview — NVIDIA DGX Station Development Guide》。",
+    "具身智能与机器人：5 条，最值得看的是《How Rhoda AI is using video data to create generalized AI models for robots - The Robot Report》。",
+    "AI for Science：8 条，最值得看的是《MatBind: a shared embedding space for multimodal materials characterization - Nature》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 0 条。",
+      "items": []
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 6 条。",
+      "items": [
+        {
+          "title": "System Overview — NVIDIA DGX Station Development Guide",
+          "url": "https://docs.nvidia.com/dgx/dgx-station-development-guide/latest/overview.html",
+          "domain": "docs.nvidia.com",
+          "published": "",
+          "point": "### GPU# The GB300 Desktop Superchip contains one Blackwell Ultra GPU with fifth-generation Tensor Cores and support for…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0 | NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0",
+          "domain": "developer.nvidia.com",
+          "published": "2026-11-16",
+          "point": "NVIDIA Rubin GPUs combine HBM4 memory, NVIDIA Tensor Cores, and sixth-generation NVIDIA NVLink to support the demands of…",
+          "why": ""
+        },
+        {
+          "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+          "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside",
+          "domain": "semiengineering.com",
+          "published": "2026-11-13",
+          "point": "### Copper’s Grip On AI Scaling Is Starting To Slip As AI clusters push beyond rack-scale limits, optical interconnects…",
+          "why": ""
+        },
+        {
+          "title": "Chip Industry Technical Paper Roundup: Nov. 17",
+          "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-17",
+          "domain": "semiengineering.com",
+          "published": "2026-11-17",
+          "point": "Home Industry Research Chip Industry Technical Paper Roundup: Nov. 17 HBM4 controller partitioning; single-crystal high-…",
+          "why": ""
+        },
+        {
+          "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics | NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/lambda-photonics",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-16",
+          "point": "country_code Skip to content # Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics November 16, 202…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab | NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-16",
+          "point": "The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 5 条。",
+      "items": [
+        {
+          "title": "How Rhoda AI is using video data to create generalized AI models for robots - The Robot Report",
+          "url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+          "domain": "therobotreport.com",
+          "published": "2026-11-13",
+          "point": "“We looked at more heavily curated videos that only had human, egocentric manipulation in them,” Singh said. “There was…",
+          "why": ""
+        },
+        {
+          "title": "Runway’s Praxis-1 world action model for robotics is now available - The Robot Report",
+          "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+          "domain": "therobotreport.com",
+          "published": "2026-11-12",
+          "point": "On RoboLab-120, Praxis-1 reached 46.2% success across 1,200 episodes, compared with 42.9% for FLUX 3 Action, 36.8% for C…",
+          "why": ""
+        },
+        {
+          "title": "Memories.ai builds standardized egocentric video pipeline - The Robot Report",
+          "url": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
+          "domain": "therobotreport.com",
+          "published": "2026-11-11",
+          "point": "The longer-term aim is to be a data-infrastructure partner for robotics and physical AI, not just a data vendor. ## Memo…",
+          "why": ""
+        },
+        {
+          "title": "Can AI agents program industrial robots without training data? Berkeley says yes - The Robot Report",
+          "url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+          "domain": "therobotreport.com",
+          "published": "2026-11-11",
+          "point": "VABAR evaluates how robots perform on practical manipulation tasks ranging from tool sorting and handing to cable insert…",
+          "why": ""
+        },
+        {
+          "title": "Viam Launchpad aims to accelerate robotics deployments - The Robot Report",
+          "url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+          "domain": "therobotreport.com",
+          "published": "2026-11-12",
+          "point": "However, downloads and developers don’t necessarily translate into customer-facing rollouts. Viam recently demonstrated…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 8 条。",
+      "items": [
+        {
+          "title": "MatBind: a shared embedding space for multimodal materials characterization - Nature",
+          "url": "https://www.nature.com/articles/s41524-026-02382-6",
+          "domain": "nature.com",
+          "published": "2026-11-14",
+          "point": "In summary, MatBind aligns crystal structures, simulated pXRD patterns, computed DOS, and automatically generated struct…",
+          "why": ""
+        },
+        {
+          "title": "Ab initio simulation of excited-state potential energy surfaces with transferable deep quantum Monte Carlo - Nature",
+          "url": "https://www.nature.com/articles/s43588-026-01065-y",
+          "domain": "nature.com",
+          "published": "2026-11-06",
+          "point": "Variational quantum Monte Carlo (VMC) offers a promising alternative. It scales favorably with the number of electrons a…",
+          "why": ""
+        },
+        {
+          "title": "Immunogenicity risk assessment of novel modalities using new approach methodologies - Nature",
+          "url": "https://www.nature.com/articles/s41573-026-01562-9",
+          "domain": "nature.com",
+          "published": "2026-11-13",
+          "point": "ArticleCASPubMedPubMed CentralGoogle Scholar 100. Rawal, A. et al. A machine learning approach for identifying variables…",
+          "why": ""
+        },
+        {
+          "title": "Study planning is better served by Monte Carlo simulation than AI-generated participants - Nature",
+          "url": "https://www.nature.com/articles/s44271-026-00556-y",
+          "domain": "nature.com",
+          "published": "2026-11-11",
+          "point": "Readers should note that none of the above implies that LLMs have no role in simulation-based planning. For example, it…",
+          "why": ""
+        },
+        {
+          "title": "MyoGen: unified biophysical modeling of human neuromotor activity and resulting signals - Nature",
+          "url": "https://www.nature.com/articles/s41467-026-79273-3",
+          "domain": "nature.com",
+          "published": "2026-11-16",
+          "point": "data structures based on the Neo framework17.\"), ensuring compatibility with toolchains such as SpikeInterface18.\"). The…",
+          "why": ""
+        },
+        {
+          "title": "Generative genome design with DNA language models - Nature",
+          "url": "https://www.nature.com/articles/s41576-026-01032-3",
+          "domain": "nature.com",
+          "published": "2026-11-17",
+          "point": "Advances in generative AI algorithms, combined with large amounts of publicly available sequencing data, have enabled th…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
