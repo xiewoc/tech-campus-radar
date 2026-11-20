@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T10:45:58+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 19,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：6 条，最值得看的是《A Survey on RLOps for Large Language Models》。",
+    "芯片与算力：4 条，最值得看的是《NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0 | NVIDIA Technical Blog》。",
+    "具身智能与机器人：3 条，最值得看的是《From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics - The Robot Report》。",
+    "AI for Science：6 条，最值得看的是《Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 6 条。",
+      "items": [
+        {
+          "title": "A Survey on RLOps for Large Language Models",
+          "url": "https://arxiv.org/html/2611.23357v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "- Cool the Sampler, Not the Learner: Sampling Temperature Moves the Staleness Cliff of Importance-Corrected GRPO. arXiv…",
+          "why": ""
+        },
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.17924",
+          "domain": "arxiv.org",
+          "published": "2026-11-16",
+          "point": "Reinforcement learning (RL) is now an essential step in post-training of large language models (LLMs). RL techniques ada…",
+          "why": ""
+        },
+        {
+          "title": "Worldviews in Large Language Models",
+          "url": "https://arxiv.org/html/2611.22670v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "Three questions follow for future work. The first is which stages of post-training produce the shift towards darker prim…",
+          "why": ""
+        },
+        {
+          "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+          "url": "https://arxiv.org/html/2611.18562",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "- • Retained general capabilities. Robot-use training causes no measurable loss in performance on nine reasoning, coding…",
+          "why": ""
+        },
+        {
+          "title": "A Survey on Collaborative Mechanisms Between Large and Small Language Models",
+          "url": "https://arxiv.org/html/2505.07460",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "#### 2.3.2 Complementarity of Capability Boundaries The advantages of large models include strong contextual understandi…",
+          "why": ""
+        },
+        {
+          "title": "AI fundamentals",
+          "url": "https://openai.com/sk-SK/academy/what-is-ai",
+          "domain": "openai.com",
+          "published": "2026-11-14",
+          "point": "Think of it like a new employee who spends weeks reading everything they can—manuals, examples of great work, past proje…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0 | NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0",
+          "domain": "developer.nvidia.com",
+          "published": "2026-11-16",
+          "point": "NVIDIA Rubin GPUs combine HBM4 memory, NVIDIA Tensor Cores, and sixth-generation NVIDIA NVLink to support the demands of…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1 | NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1",
+          "domain": "developer.nvidia.com",
+          "published": "2026-11-16",
+          "point": "Every result above is also a networking result. Modern AI training requires thousands of processors to act as one, a cha…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab | NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-16",
+          "point": "The kit is a four-node cluster of NVIDIA DGX Spark systems, each connected directly to its two neighbors in a ring, with…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+          "url": "https://blogs.nvidia.com/blog/rubin-hpc",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-16",
+          "point": "That balance is what optimizes Rubin HPC for scientific computing. It keeps the GPU’s record number of CUDA cores suppli…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 3 条。",
+      "items": [
+        {
+          "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics - The Robot Report",
+          "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics",
+          "domain": "therobotreport.com",
+          "published": "2026-11-18",
+          "point": "PuduFM is Pudu’s embodied intelligence foundation model, developed around the concept of physical intuition. Beyond reco…",
+          "why": ""
+        },
+        {
+          "title": "SHAPE: Discrete Supervision and Parallel ContinuousStreams for Learning Dexterous Manipulationfrom Egocentric Human Data",
+          "url": "https://arxiv.org/html/2611.24585",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "- InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization. arXiv preprint…",
+          "why": ""
+        },
+        {
+          "title": "Vision-Language-Action Models:A Life-Cycle Survey of Design, Training and Deployment",
+          "url": "https://arxiv.org/html/2611.18372v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-13",
+          "point": "This mirrors the hierarchical VLAs of Section 3, and NaVILA’s language commands over an RL locomotion policy are a navig…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 6 条。",
+      "items": [
+        {
+          "title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology",
+          "url": "https://www.nature.com/articles/s41698-026-01705-6",
+          "domain": "nature.com",
+          "published": "2026-10-30",
+          "point": "Recent advances have further expanded the capabilities of protein foundation models beyond static structure prediction.…",
+          "why": ""
+        },
+        {
+          "title": "The evergreen Ramachandran plot is having an AI moment | Nature India",
+          "url": "https://www.nature.com/articles/d44151-026-00220-8",
+          "domain": "nature.com",
+          "published": "2026-11-16",
+          "point": "“I don’t think Ramachandran had the opportunity to realise how big the Ramchandran plot had become,” says Balaram. “He d…",
+          "why": ""
+        },
+        {
+          "title": "Artificial intelligence for antibiotic discovery and design | Nature Reviews Microbiology",
+          "url": "https://www.nature.com/articles/s41579-026-01393-w",
+          "domain": "nature.com",
+          "published": "2026-11-17",
+          "point": "This figure outlines a multi-step process for identifying and developing protein inhibitors as antibiotics, highlighting…",
+          "why": ""
+        },
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "Structure-based virtual screening with AlphaFold identifies CLIP1-LTK inhibitors | Acta Pharmacologica Sinica",
+          "url": "https://www.nature.com/articles/s41401-026-01957-9",
+          "domain": "nature.com",
+          "published": "2026-11-13",
+          "point": "Artificial intelligence-based protein structure prediction provides new opportunities for structure-based drug discovery…",
+          "why": ""
+        },
+        {
+          "title": "General prediction of T cell receptor antigen specificity from ...",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aef5674",
+          "domain": "science.org",
+          "published": "",
+          "point": "by LJ Woods · 2026 · Cited by 3 — AlphaFold 3 (AF3) is a recently developed model that improves on earlier versions in p…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
