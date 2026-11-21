@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T10:56:20+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 16,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：4 条，最值得看的是《1Introduction》。",
+    "芯片与算力：1 条，最值得看的是《Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS) - Semiconductor Engineering》。",
+    "具身智能与机器人：7 条，最值得看的是《ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control》。",
+    "AI for Science：4 条，最值得看的是《El Agente Fármaco: A Scalable AI Scientist for Drug Discovery》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.17924",
+          "domain": "arxiv.org",
+          "published": "2026-11-16",
+          "point": "Reinforcement learning (RL) is now an essential step in post-training of large language models (LLMs). RL techniques ada…",
+          "why": ""
+        },
+        {
+          "title": "A Survey on RLOps for Large Language Models",
+          "url": "https://arxiv.org/html/2611.23357v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "- Cool the Sampler, Not the Learner: Sampling Temperature Moves the Staleness Cliff of Importance-Corrected GRPO. arXiv…",
+          "why": ""
+        },
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.23388",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "## 1 Introduction Large language models (LLMs) excel at mathematics, science and programming, and reasoning models go fu…",
+          "why": ""
+        },
+        {
+          "title": "A Survey on Collaborative Mechanisms Between Large and Small Language Models",
+          "url": "https://arxiv.org/html/2505.07460",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "#### 2.3.2 Complementarity of Capability Boundaries The advantages of large models include strong contextual understandi…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 1 条。",
+      "items": [
+        {
+          "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS) - Semiconductor Engineering",
+          "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+          "domain": "semiengineering.com",
+          "published": "2026-11-17",
+          "point": "by The SE Staff ### Chip Industry Week In Review 2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 7 条。",
+      "items": [
+        {
+          "title": "ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control",
+          "url": "https://arxiv.org/html/2611.25778v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Figure 7 further demonstrates that ECHO can adapt these capabilities to changing physical contexts through in-context in…",
+          "why": ""
+        },
+        {
+          "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+          "url": "https://arxiv.org/html/2611.26596v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "To this end, we aim to establish a physically grounded framework bridging robot foundation models (i.e., VLAs) and struc…",
+          "why": ""
+        },
+        {
+          "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+          "url": "https://arxiv.org/html/2611.26420v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Human demonstrations are typically used in embodied learning to supervise perception, world modeling, and action learnin…",
+          "why": ""
+        },
+        {
+          "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics - The Robot Report",
+          "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics",
+          "domain": "therobotreport.com",
+          "published": "2026-11-18",
+          "point": "PuduFM is Pudu’s embodied intelligence foundation model, developed around the concept of physical intuition. Beyond reco…",
+          "why": ""
+        },
+        {
+          "title": "SHAPE: Discrete Supervision and Parallel ContinuousStreams for Learning Dexterous Manipulationfrom Egocentric Human Data",
+          "url": "https://arxiv.org/html/2611.24585",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "- InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization. arXiv preprint…",
+          "why": ""
+        },
+        {
+          "title": "Zero-Shot Compositional Generalization for Embodied Manipulation",
+          "url": "https://arxiv.org/html/2611.22797v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "#### Sharing demonstrations across robots. Open X-Embodiment aggregates heterogeneous robot experience, and Octo uses fl…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+          "url": "https://arxiv.org/html/2611.03832v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-02",
+          "point": "In drug discovery and related fields, existing systems apply this approach at different levels, from assisting interacti…",
+          "why": ""
+        },
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "Artificial Intelligence as a Multifaceted Toolkit for ...",
+          "url": "https://spj.science.org/doi/10.34133/research.1457",
+          "domain": "spj.science.org",
+          "published": "",
+          "point": "AI integrates peptide sequence information, physicochemical properties, and biological activity-related features to enab…",
+          "why": ""
+        },
+        {
+          "title": "Exclusive: I got to eavesdrop on AI agents doing ...",
+          "url": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
+          "domain": "science.org",
+          "published": "2026-11-20",
+          "point": "936 agents exchanged thousands of messages, each publishing end-to-end research on their 1.0x Audio is AI-generated.",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
