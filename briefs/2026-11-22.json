@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T09:49:54+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 16,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：4 条，最值得看的是《1Introduction》。",
+    "芯片与算力：1 条，最值得看的是《Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS) - Semiconductor Engineering》。",
+    "具身智能与机器人：5 条，最值得看的是《ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control》。",
+    "AI for Science：6 条，最值得看的是《System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.17924",
+          "domain": "arxiv.org",
+          "published": "2026-11-16",
+          "point": "Reinforcement learning (RL) is now an essential step in post-training of large language models (LLMs). RL techniques ada…",
+          "why": ""
+        },
+        {
+          "title": "A Survey on RLOps for Large Language Models",
+          "url": "https://arxiv.org/html/2611.23357v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "- Cool the Sampler, Not the Learner: Sampling Temperature Moves the Staleness Cliff of Importance-Corrected GRPO. arXiv…",
+          "why": ""
+        },
+        {
+          "title": "1Introduction",
+          "url": "https://arxiv.org/html/2611.23388v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "## 1 Introduction Large language models (LLMs) excel at mathematics, science and programming, and reasoning models go fu…",
+          "why": ""
+        },
+        {
+          "title": "Language Models Can Rewrite Their Own Weights",
+          "url": "https://arxiv.org/html/2611.21885v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "The closest work is a blog post by Takehi et al. \\, in which a frontier model traces a small reasoning model’s loops to…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 1 条。",
+      "items": [
+        {
+          "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS) - Semiconductor Engineering",
+          "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+          "domain": "semiengineering.com",
+          "published": "2026-11-17",
+          "point": "by The SE Staff ### Chip Industry Week In Review 2D Tunnel FET; in-memory photonic computing; India's $13.4B Semicon 2.0…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 5 条。",
+      "items": [
+        {
+          "title": "ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control",
+          "url": "https://arxiv.org/html/2611.25778v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Figure 7 further demonstrates that ECHO can adapt these capabilities to changing physical contexts through in-context in…",
+          "why": ""
+        },
+        {
+          "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+          "url": "https://arxiv.org/html/2611.26596v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "To this end, we aim to establish a physically grounded framework bridging robot foundation models (i.e., VLAs) and struc…",
+          "why": ""
+        },
+        {
+          "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics - The Robot Report",
+          "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics",
+          "domain": "therobotreport.com",
+          "published": "2026-11-18",
+          "point": "PuduFM is Pudu’s embodied intelligence foundation model, developed around the concept of physical intuition. Beyond reco…",
+          "why": ""
+        },
+        {
+          "title": "SHAPE: Discrete Supervision and Parallel ContinuousStreams for Learning Dexterous Manipulationfrom Egocentric Human Data",
+          "url": "https://arxiv.org/html/2611.24585",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "- InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization. arXiv preprint…",
+          "why": ""
+        },
+        {
+          "title": "PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity",
+          "url": "https://arxiv.org/html/2611.26565v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "- \\ (2019) Omnipush: accurate, diverse, real-world dataset of pushing dynamics with rgb-d video. In 2019 IEEE/RSJ Intern…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 6 条。",
+      "items": [
+        {
+          "title": "System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science",
+          "url": "https://www.nature.com/articles/s43588-026-01058-x",
+          "domain": "nature.com",
+          "published": "2026-11-20",
+          "point": "Recent breakthroughs in generative models, exemplified by AlphaFold in protein structure prediction28 and diffusion-base…",
+          "why": ""
+        },
+        {
+          "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+          "url": "https://arxiv.org/html/2611.03832v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-02",
+          "point": "In drug discovery and related fields, existing systems apply this approach at different levels, from assisting interacti…",
+          "why": ""
+        },
+        {
+          "title": "Scaling Science: Toward a Chain Reaction of Discovery",
+          "url": "https://arxiv.org/html/2611.00580v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-10",
+          "point": "Performance optimization and uncertainty reduction can also reinforce each other. For example, Entropy Search prioritize…",
+          "why": ""
+        },
+        {
+          "title": "Can artificial intelligence align with Indigenous science?",
+          "url": "https://www.science.org/doi/10.1126/science.aen6314",
+          "domain": "science.org",
+          "published": "",
+          "point": "by Y Running Horse Collin · 2026 — Today's AI models are trained on Western scientific datasets and constructs that are…",
+          "why": ""
+        },
+        {
+          "title": "For early-career scientists, the cost of AI can be a problem",
+          "url": "https://www.science.org/content/article/early-career-scientists-cost-ai-can-be-problem",
+          "domain": "science.org",
+          "published": "2026-11-03",
+          "point": "Those who relied most heavily on AI to do their research were more likely to be paying out of their own pockets, and hea…",
+          "why": ""
+        },
+        {
+          "title": "Exclusive: I got to eavesdrop on AI agents doing ...",
+          "url": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
+          "domain": "science.org",
+          "published": "2026-11-20",
+          "point": "Over just 12 weeks starting in mid-August, 936 agents unleashed by 35 human-run labs exchanged 9500 messages in 229 chat…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
