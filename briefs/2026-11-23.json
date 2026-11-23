@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T10:05:59+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 13,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：3 条，最值得看的是《Language Models Can Rewrite Their Own Weights》。",
+    "芯片与算力：2 条，最值得看的是《NVIDIA Perspectives》。",
+    "具身智能与机器人：4 条，最值得看的是《PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation》。",
+    "AI for Science：4 条，最值得看的是《System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 3 条。",
+      "items": [
+        {
+          "title": "Language Models Can Rewrite Their Own Weights",
+          "url": "https://arxiv.org/html/2611.21885v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "The closest work is a blog post by Takehi et al. \\, in which a frontier model traces a small reasoning model’s loops to…",
+          "why": ""
+        },
+        {
+          "title": "A Survey on Collaborative Mechanisms Between Large and Small Language Models",
+          "url": "https://arxiv.org/html/2505.07460",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "#### 2.3.2 Complementarity of Capability Boundaries The advantages of large models include strong contextual understandi…",
+          "why": ""
+        },
+        {
+          "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+          "url": "https://arxiv.org/html/2611.24877v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "### 3.4 The auditor and its tool The auditor was GPT-6 Astra through the Codex command-line interface, reasoning effort…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 2 条。",
+      "items": [
+        {
+          "title": "NVIDIA Perspectives",
+          "url": "https://perspectives.nvidia.com",
+          "domain": "perspectives.nvidia.com",
+          "published": "2026-11-17",
+          "point": "NVIDIA serves as the foundational backbone for AI infrastructure by providing a co-designed ecosystem of hardware, netwo…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA Expands Commitments With Supply Chain Partners to Support AI Infrastructure Buildout | NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+          "domain": "nvidianews.nvidia.com",
+          "published": "2026-11-17",
+          "point": "NVIDIA today announced expanded commitments with supply chain partners to support sustainable long-term growth, aligning…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+          "url": "https://arxiv.org/html/2611.26596v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "To this end, we aim to establish a physically grounded framework bridging robot foundation models (i.e., VLAs) and struc…",
+          "why": ""
+        },
+        {
+          "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics - The Robot Report",
+          "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics",
+          "domain": "therobotreport.com",
+          "published": "2026-11-18",
+          "point": "PuduFM is Pudu’s embodied intelligence foundation model, developed around the concept of physical intuition. Beyond reco…",
+          "why": ""
+        },
+        {
+          "title": "SHAPE: Discrete Supervision and Parallel ContinuousStreams for Learning Dexterous Manipulationfrom Egocentric Human Data",
+          "url": "https://arxiv.org/html/2611.24585",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "- InternVLA-A1.5: Unifying Understanding, Latent Foresight, and Action for Compositional Generalization. arXiv preprint…",
+          "why": ""
+        },
+        {
+          "title": "Zero-Shot Compositional Generalization for Embodied Manipulation",
+          "url": "https://arxiv.org/html/2611.22797v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "#### Sharing demonstrations across robots. Open X-Embodiment aggregates heterogeneous robot experience, and Octo uses fl…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science",
+          "url": "https://www.nature.com/articles/s43588-026-01058-x",
+          "domain": "nature.com",
+          "published": "",
+          "point": "Recent breakthroughs in generative models, exemplified by AlphaFold in protein structure prediction28 and diffusion-base…",
+          "why": ""
+        },
+        {
+          "title": "For early-career scientists, the cost of AI can be a problem",
+          "url": "https://www.science.org/content/article/early-career-scientists-cost-ai-can-be-problem",
+          "domain": "science.org",
+          "published": "2026-11-03",
+          "point": "As AI gets better at the work involved in science, more scientists see it as essential … the costs of AI are falling esp…",
+          "why": ""
+        },
+        {
+          "title": "Can artificial intelligence align with Indigenous science?",
+          "url": "https://www.science.org/doi/10.1126/science.aen6314",
+          "domain": "science.org",
+          "published": "",
+          "point": "by Y Running Horse Collin · 2026 — Indigenous science and current AI are fundamentally incompatible because Indigenous s…",
+          "why": ""
+        },
+        {
+          "title": "Exclusive: I got to eavesdrop on AI agents doing ...",
+          "url": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
+          "domain": "science.org",
+          "published": "2026-11-20",
+          "point": "Over just 12 weeks starting in mid-August, 936 agents unleashed by 35 human-run labs exchanged 9500 messages in 229 chat…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
