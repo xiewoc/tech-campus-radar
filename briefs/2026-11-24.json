@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T13:41:52+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 16,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：3 条，最值得看的是《Worldviews in Large Language Models》。",
+    "芯片与算力：4 条，最值得看的是《Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0 | NVIDIA Technical Blog》。",
+    "具身智能与机器人：2 条，最值得看的是《Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation》。",
+    "AI for Science：7 条，最值得看的是《System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 3 条。",
+      "items": [
+        {
+          "title": "Worldviews in Large Language Models",
+          "url": "https://arxiv.org/html/2611.22670v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "Three questions follow for future work. The first is which stages of post-training produce the shift towards darker prim…",
+          "why": ""
+        },
+        {
+          "title": "A Survey on Collaborative Mechanisms Between Large and Small Language Models",
+          "url": "https://arxiv.org/html/2505.07460",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "#### 2.3.2 Complementarity of Capability Boundaries The advantages of large models include strong contextual understandi…",
+          "why": ""
+        },
+        {
+          "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+          "url": "https://arxiv.org/html/2611.24877v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "### 3.4 The auditor and its tool The auditor was GPT-6 Astra through the Codex command-line interface, reasoning effort…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0 | NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0",
+          "domain": "developer.nvidia.com",
+          "published": "2026-11-23",
+          "point": "cuDSS intelligently orchestrates data placement across GPU HBM and CPU DRAM, keeping the most compute-intensive portions…",
+          "why": ""
+        },
+        {
+          "title": "[2611.27576] Unlocking Heterogeneous Accelerator Flexibility in AI Data Centers: Sizing and Workload Allocation",
+          "url": "https://arxiv.org/abs/2611.27576",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "archive Press Enter to search · Advanced search # Electrical Engineering and Systems Science > Systems and Control # Tit…",
+          "why": ""
+        },
+        {
+          "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs | NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-19",
+          "point": "## NVIDIA Vera Rubin NVL72 Running in Azure NVIDIA Vera Rubin NVL72 systems are running in Azure data centers, providing…",
+          "why": ""
+        },
+        {
+          "title": "[2611.26156v1] Towards Scale-Up Networking: Challenges and Open Questions",
+          "url": "https://arxiv.org/abs/2611.26156v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "archive Press Enter to search · Advanced search # Computer Science > Networking and Internet Architecture # Title:Toward…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 2 条。",
+      "items": [
+        {
+          "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+          "url": "https://arxiv.org/html/2611.27689v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Agentic frameworks connect foundation models to robots through perception, planning, and control interfaces. Language mo…",
+          "why": ""
+        },
+        {
+          "title": "Zero-Shot Compositional Generalization for Embodied Manipulation",
+          "url": "https://arxiv.org/html/2611.22797v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-18",
+          "point": "#### Sharing demonstrations across robots. Open X-Embodiment aggregates heterogeneous robot experience, and Octo uses fl…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 7 条。",
+      "items": [
+        {
+          "title": "System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science",
+          "url": "https://www.nature.com/articles/s43588-026-01058-x",
+          "domain": "nature.com",
+          "published": "2026-11-20",
+          "point": "Recent breakthroughs in generative models, exemplified by AlphaFold in protein structure prediction28 and diffusion-base…",
+          "why": ""
+        },
+        {
+          "title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology",
+          "url": "https://www.nature.com/articles/s41698-026-01705-6",
+          "domain": "nature.com",
+          "published": "2026-10-30",
+          "point": "Recent advances have further expanded the capabilities of protein foundation models beyond static structure prediction.…",
+          "why": ""
+        },
+        {
+          "title": "El Agente Fármaco: A Scalable AI Scientist for Drug Discovery",
+          "url": "https://arxiv.org/html/2611.03832v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-02",
+          "point": "In drug discovery and related fields, existing systems apply this approach at different levels, from assisting interacti…",
+          "why": ""
+        },
+        {
+          "title": "Artificial Intelligence as a Multifaceted Toolkit for Antibacterial Drug Discovery against Resistance | Research",
+          "url": "https://spj.science.org/doi/10.34133/research.1457",
+          "domain": "spj.science.org",
+          "published": "2026-11-10",
+          "point": ". As shown in Fig.5, major applications include protein–drug interaction analysis, protein structure prediction, synthet…",
+          "why": ""
+        },
+        {
+          "title": "AI company’s research deepens mystery of vaults, cells’ strangest particles | Science | AAAS",
+          "url": "https://www.science.org/content/article/ai-company-s-research-deepens-mystery-vaults-cells-strangest-particles",
+          "domain": "science.org",
+          "published": "2026-11-04",
+          "point": "The Anthropic team also closely analyzed the structure made by a vault protein called L05, from phages. Vaults built by…",
+          "why": ""
+        },
+        {
+          "title": "Exclusive: I got to eavesdrop on AI agents doing science. It was eye opening | Science | AAAS",
+          "url": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
+          "domain": "science.org",
+          "published": "2026-11-19",
+          "point": "Perhaps what’s more important here is the idea. Shah, for example, believes such agentic systems could be a way for rese…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
