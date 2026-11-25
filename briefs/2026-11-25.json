@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T12:43:34+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 14,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：4 条，最值得看的是《Population-Based Post-Training for Large Language Models》。",
+    "芯片与算力：4 条，最值得看的是《Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0 | NVIDIA Technical Blog》。",
+    "具身智能与机器人：3 条，最值得看的是《ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control》。",
+    "AI for Science：3 条，最值得看的是《System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "Population-Based Post-Training for Large Language Models",
+          "url": "https://arxiv.org/html/2611.29014v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-21",
+          "point": "- Enigmata: scaling logical reasoning in large language models with synthetic verifiable puzzles. In Advances in Neural…",
+          "why": ""
+        },
+        {
+          "title": "Reasoning in Fewer Tokens: Concept-Normalized Multilingual Scratchpads and Reversible Model-Adaptive Reasoning Codes",
+          "url": "https://arxiv.org/html/2611.27326v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Two findings caution specifically against reasoning in Chinese. Wendler et al. (2024) find that LLaMA-2’s middle layers…",
+          "why": ""
+        },
+        {
+          "title": "From Rewarding What Models Say to How They Think: Attention Process Reward Model for LLM Reinforcement Learning",
+          "url": "https://arxiv.org/html/2611.30627v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-24",
+          "point": "## 1 Introduction Refer to caption In recent years, large language models (LLMs) (Zhao et al., 2023; Chang et al., 2024;…",
+          "why": ""
+        },
+        {
+          "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+          "url": "https://arxiv.org/html/2611.25898v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "- \\ A. P. Association, Diagnostic and statistical manual of mental disorders, 5th Edition, American Psychiatric Publishi…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0 | NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0",
+          "domain": "developer.nvidia.com",
+          "published": "2026-11-23",
+          "point": "cuDSS intelligently orchestrates data placement across GPU HBM and CPU DRAM, keeping the most compute-intensive portions…",
+          "why": ""
+        },
+        {
+          "title": "[2611.29901] Synapse: An HBM-Coordinated HBF Near-Memory ...",
+          "url": "https://arxiv.org/abs/2611.29901",
+          "domain": "arxiv.org",
+          "published": "2026-11-23",
+          "point": "During multi-agent video reasoning, model weights and per-agent key-value caches can exceed high-bandwidth memory (HBM)…",
+          "why": ""
+        },
+        {
+          "title": "[2611.30417] ANOR: Scaling Sparse Attention with a GPU-PNM ...",
+          "url": "https://arxiv.org/abs/2611.30417",
+          "domain": "arxiv.org",
+          "published": "2026-11-24",
+          "point": "Prior GPU-PNM systems for sparse attention are PNM-centric, processing most of the attention on the PNM. As existing CXL…",
+          "why": ""
+        },
+        {
+          "title": "Recent News | NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/recent-news",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-19",
+          "point": "### NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs NVIDIA and Microsoft are extending their…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 3 条。",
+      "items": [
+        {
+          "title": "ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control",
+          "url": "https://arxiv.org/html/2611.25778v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "Figure 7 further demonstrates that ECHO can adapt these capabilities to changing physical contexts through in-context in…",
+          "why": ""
+        },
+        {
+          "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+          "url": "https://arxiv.org/html/2611.26596v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "To this end, we aim to establish a physically grounded framework bridging robot foundation models (i.e., VLAs) and struc…",
+          "why": ""
+        },
+        {
+          "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+          "url": "https://arxiv.org/html/2611.26420v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Human demonstrations are typically used in embodied learning to supervise perception, world modeling, and action learnin…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 3 条。",
+      "items": [
+        {
+          "title": "System of agentic AI for the discovery of metal–organic frameworks | Nature Computational Science",
+          "url": "https://www.nature.com/articles/s43588-026-01058-x",
+          "domain": "nature.com",
+          "published": "2026-11-20",
+          "point": "Recent breakthroughs in generative models, exemplified by AlphaFold in protein structure prediction28 and diffusion-base…",
+          "why": ""
+        },
+        {
+          "title": "Artificial Intelligence as a Multifaceted Toolkit for Antibacterial Drug Discovery against Resistance | Research",
+          "url": "https://spj.science.org/doi/10.34133/research.1457",
+          "domain": "spj.science.org",
+          "published": "2026-11-10",
+          "point": ". As shown in Fig.5, major applications include protein–drug interaction analysis, protein structure prediction, synthet…",
+          "why": ""
+        },
+        {
+          "title": "Chemically informed computational methods for the modelling and design of biosensors | Nature Reviews Chemistry",
+          "url": "https://www.nature.com/articles/s41570-026-00891-y",
+          "domain": "nature.com",
+          "published": "2026-11-23",
+          "point": "Molecularly imprinted polymers (MIPs). Synthetic polymers formed around a template molecule to create shape- and chemist…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
