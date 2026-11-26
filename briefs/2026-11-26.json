@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T11:51:47+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 16,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：3 条，最值得看的是《Population-Based Post-Training for Large Language Models》。",
+    "芯片与算力：5 条，最值得看的是《How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling | NVIDIA Technical Blog》。",
+    "具身智能与机器人：1 条，最值得看的是《ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control》。",
+    "AI for Science：7 条，最值得看的是《AI company’s research deepens mystery of vaults, cells’ strangest particles | Science | AAAS》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 3 条。",
+      "items": [
+        {
+          "title": "Population-Based Post-Training for Large Language Models",
+          "url": "https://arxiv.org/html/2611.29014v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-21",
+          "point": "We evaluate PBPT on reasoning and multi-turn agentic tool-use benchmarks: Enigmata (Chen et al., 2025), Nemotron (NVIDIA…",
+          "why": ""
+        },
+        {
+          "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+          "url": "https://arxiv.org/html/2611.25898v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "Gupta et al. \\ evaluated RL-trained reasoning models such as DeepSeek-R1 on zero-shot chronic disease classification, a…",
+          "why": ""
+        },
+        {
+          "title": "[2611.26920] Partially canonical axes in large language model representations",
+          "url": "https://arxiv.org/abs/2611.26920",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "> Abstract:Large language models (LLMs) develop rich internal representations of language, but whether their individual…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 5 条。",
+      "items": [
+        {
+          "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling | NVIDIA Technical Blog",
+          "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling",
+          "domain": "developer.nvidia.com",
+          "published": "2026-11-25",
+          "point": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computatio…",
+          "why": ""
+        },
+        {
+          "title": "Generalized Tensor Parallelism: Many Parallelisms, One Framework",
+          "url": "https://research.nvidia.com/labs/nemotron/gtp",
+          "domain": "research.nvidia.com",
+          "published": "2026-11-24",
+          "point": "Choosing parallelism degrees and placement. Each parallelism degree trades memory against communication or compute effic…",
+          "why": ""
+        },
+        {
+          "title": "[2611.27561] Exploring the Potential of Ultra-Low-Bit Inference on LLM Accelerators",
+          "url": "https://arxiv.org/abs/2611.27561",
+          "domain": "arxiv.org",
+          "published": "2026-11-21",
+          "point": "to effectively exploit them. To bridge this gap, we present VQACC, an architectural enhancement that jointly redesigns t…",
+          "why": ""
+        },
+        {
+          "title": "How Can AI Build Faster And Better Silicon For Physical AI?",
+          "url": "https://semiengineering.com/how-can-ai-build-faster-and-better-silicon-for-physical-ai",
+          "domain": "semiengineering.com",
+          "published": "2026-11-24",
+          "point": "This requires co-optimizing models, tools, and compute across the workflow. Complex reasoning may benefit from a larger…",
+          "why": ""
+        },
+        {
+          "title": "[2611.32954v1] LoomKV: Lossless KV Cache Compression from GPU Memory to SSD for LLM Serving",
+          "url": "https://arxiv.org/abs/2611.32954v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-25",
+          "point": "exact-length records with length readback off the load path, leaving tier storage, eviction, and prefetch unchanged, and…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 1 条。",
+      "items": [
+        {
+          "title": "ECHO: In-Context Behavior foundation model for Humanoid Whole-Body Control",
+          "url": "https://arxiv.org/html/2611.25778v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-19",
+          "point": "Figure 7 further demonstrates that ECHO can adapt these capabilities to changing physical contexts through in-context in…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 7 条。",
+      "items": [
+        {
+          "title": "AI company’s research deepens mystery of vaults, cells’ strangest particles | Science | AAAS",
+          "url": "https://www.science.org/content/article/ai-company-s-research-deepens-mystery-vaults-cells-strangest-particles",
+          "domain": "science.org",
+          "published": "2026-11-04",
+          "point": "The Anthropic team also closely analyzed the structure made by a vault protein called L05, from phages. Vaults built by…",
+          "why": ""
+        },
+        {
+          "title": "Zero-shot de novo design of a metalloenzyme | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aej3009",
+          "domain": "science.org",
+          "published": "2026-11-19",
+          "point": "# Zero-shot de novo design of a metalloenzyme ## Abstract cat/K M)/k w) of up to 3 x 10 13relative to the uncatalyzed re…",
+          "why": ""
+        },
+        {
+          "title": "[2611.27015] Ruby: State-of-the-Art Potency Prediction across Discovery Regimes Using Learned Structural Representations",
+          "url": "https://arxiv.org/abs/2611.27015",
+          "domain": "arxiv.org",
+          "published": "2026-11-20",
+          "point": "archive Press Enter to search · Advanced search # Computer Science > Machine Learning # Title:Ruby: State-of-the-Art Pot…",
+          "why": ""
+        },
+        {
+          "title": "Discovering molecular modulators with nanoswitch screening",
+          "url": "https://www.science.org/doi/10.1126/science.adt7185",
+          "domain": "science.org",
+          "published": "2026-11-05",
+          "point": "To address these challenges, we developed FIND (Functional Interaction–based Nanoswitch Discovery), a platform for disco…",
+          "why": ""
+        },
+        {
+          "title": "[2611.22098] Every Measurement, Every Direction, All at Once: Multimodal Flow Matching for Molecules and Spectra",
+          "url": "https://arxiv.org/abs/2611.22098",
+          "domain": "arxiv.org",
+          "published": "2026-11-17",
+          "point": "archive Press Enter to search · Advanced search # Computer Science > Machine Learning # Title:Every Measurement, Every D…",
+          "why": ""
+        },
+        {
+          "title": "Research | SPJ",
+          "url": "https://spj.science.org/journal/research",
+          "domain": "spj.science.org",
+          "published": "2026-11-20",
+          "point": "Storage Preferences The Open Access journal Research, published in association with CAST, publishes innovative, wide-ran…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
