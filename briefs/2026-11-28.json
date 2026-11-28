@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T11:40:16+08:00",
+  "engine": "tavily",
+  "stats": {
+    "topics": 4,
+    "ok_topics": 4,
+    "items": 13,
+    "duplicates_removed": 0,
+    "engine": "tavily"
+  },
+  "overview": [
+    "大模型与推理：2 条，最值得看的是《From Rewarding What Models Say to How They Think: Attention Process Reward Model for LLM Reinforcement Learning》。",
+    "芯片与算力：2 条，最值得看的是《AI Solutions for Enterprises | NVIDIA》。",
+    "具身智能与机器人：4 条，最值得看的是《One Policy, One Million Manipulators》。",
+    "AI for Science：5 条，最值得看的是《Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology》。"
+  ],
+  "topics": [
+    {
+      "name": "大模型与推理",
+      "query": "large language model reasoning inference post-training research",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 2 条。",
+      "items": [
+        {
+          "title": "From Rewarding What Models Say to How They Think: Attention Process Reward Model for LLM Reinforcement Learning",
+          "url": "https://arxiv.org/html/2611.30627",
+          "domain": "arxiv.org",
+          "published": "2026-11-24",
+          "point": "## 1 Introduction Refer to caption In recent years, large language models (LLMs) (Zhao et al., 2023; Chang et al., 2024;…",
+          "why": ""
+        },
+        {
+          "title": "ZeroHero: Training Small Language Agentsfrom Scratch",
+          "url": "https://arxiv.org/html/2611.34635v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-25",
+          "point": "Large pretrained language models provide capable policies for interactive tasks, but how much model capacity is necessar…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "芯片与算力",
+      "query": "AI chip GPU HBM accelerator datacenter architecture",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 2 条。",
+      "items": [
+        {
+          "title": "AI Solutions for Enterprises | NVIDIA",
+          "url": "https://www.nvidia.com/en-us/solutions/ai?ncid=ref-dev-332532-vt04",
+          "domain": "nvidia.com",
+          "published": "",
+          "point": "#### AI Solutions ## The Most Advanced AI, Ready for Enterprise Explore the latest breakthroughs made possible with NVID…",
+          "why": ""
+        },
+        {
+          "title": "Recent News | NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/recent-news",
+          "domain": "blogs.nvidia.com",
+          "published": "2026-11-23",
+          "point": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future Deb Shoquist leads operations at NVIDIA,…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "具身智能与机器人",
+      "query": "embodied AI humanoid robot foundation model manipulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 4 条。",
+      "items": [
+        {
+          "title": "One Policy, One Million Manipulators",
+          "url": "https://arxiv.org/html/2611.33158v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-25",
+          "point": "- \\ (2025) Kinematics-aware diffusion policy with consistent 3d observation and action space for whole-arm robotic manip…",
+          "why": ""
+        },
+        {
+          "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+          "url": "https://arxiv.org/html/2611.27689v2",
+          "domain": "arxiv.org",
+          "published": "2026-11-24",
+          "point": "Agentic frameworks connect foundation models to robots through perception, planning, and control interfaces. Language mo…",
+          "why": ""
+        },
+        {
+          "title": "Co-World Model for Human-Video-to-Robot Transfer via Co-Constructed Shared Latent Dynamics",
+          "url": "https://arxiv.org/html/2611.34302v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-26",
+          "point": "- \\ Bjorck J, Castañeda F, Chernyadev N, et al. GR00T N1: An open foundation model for generalist humanoid robots. arXiv…",
+          "why": ""
+        },
+        {
+          "title": "\\calmregularHoloBrain-0.5 Technical Report",
+          "url": "https://arxiv.org/html/2611.34449v1",
+          "domain": "arxiv.org",
+          "published": "2026-11-26",
+          "point": "We present HoloBrain-0.5, a family of vision-language-action (VLA) models for manipulation across heterogeneous embodime…",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "name": "AI for Science",
+      "query": "AI for science protein structure materials discovery simulation",
+      "ok": true,
+      "error": null,
+      "summary": "共检索到 5 条。",
+      "items": [
+        {
+          "title": "Decoding small cell lung cancer vulnerabilities: the AI pathway to next-gen therapeutics | npj Precision Oncology",
+          "url": "https://www.nature.com/articles/s41698-026-01705-6",
+          "domain": "nature.com",
+          "published": "2026-10-30",
+          "point": "Recent advances have further expanded the capabilities of protein foundation models beyond static structure prediction.…",
+          "why": ""
+        },
+        {
+          "title": "Artificial Intelligence as a Multifaceted Toolkit for Antibacterial Drug Discovery against Resistance | Research",
+          "url": "https://spj.science.org/doi/10.34133/research.1457",
+          "domain": "spj.science.org",
+          "published": "2026-11-10",
+          "point": ". As shown in Fig.5, major applications include protein–drug interaction analysis, protein structure prediction, synthet…",
+          "why": ""
+        },
+        {
+          "title": "Exclusive: I got to eavesdrop on AI agents doing science. It was eye opening | Science | AAAS",
+          "url": "https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening",
+          "domain": "science.org",
+          "published": "2026-11-19",
+          "point": "Perhaps what’s more important here is the idea. Shah, for example, believes such agentic systems could be a way for rese…",
+          "why": ""
+        },
+        {
+          "title": "For early-career scientists, the cost of AI can be a problem | Science | AAAS",
+          "url": "https://www.science.org/content/article/early-career-scientists-cost-ai-can-be-problem",
+          "domain": "science.org",
+          "published": "2026-11-03",
+          "point": "Earlier this year, Saad Bhamla, who leads a biophysics and engineering lab at the University of Colorado Boulder, sent a…",
+          "why": ""
+        },
+        {
+          "title": "Can artificial intelligence align with Indigenous science? | Science",
+          "url": "https://www.science.org/doi/10.1126/science.aen6314",
+          "domain": "science.org",
+          "published": "2026-11-05",
+          "point": "No eLetters have been published for this article yet. ## Information & Authors ### Information #### Published In 5 Novem…",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "trends": [],
+  "watch": []
+}
